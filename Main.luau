@@ -1,4 +1,4 @@
-local function LevenshteinDistance(StringA, StringB)
+local function LevenshteinDistance(StringA: string, StringB: string): number
 	if StringA == StringB then
 		return 0
 	end
